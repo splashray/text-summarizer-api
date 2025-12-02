@@ -12,7 +12,7 @@ Before you start:
 
 - ✅ GitHub account (create at github.com if you don't have one)
 - ✅ Render account (sign up at render.com - it's FREE)
-- ✅ Your Gemini API key (you already have this: AIzaSyCyQT8z2Okof5KYToO9TY1jehEG00ViOak)
+- ✅ Your Gemini API key (you already have this: )
 - ✅ All your project files working locally
 
 ---
@@ -193,11 +193,11 @@ Fill in these settings:
 
 Click **"Add Environment Variable"** and add these:
 
-| Key              | Value                                     |
-| ---------------- | ----------------------------------------- |
-| `GEMINI_API_KEY` | `AIzaSyCyQT8z2Okof5KYToO9TY1jehEG00ViOak` |
-| `GEMINI_MODEL`   | `gemini-2.0-flash-exp`                    |
-| `PYTHON_VERSION` | `3.11.7`                                  |
+| Key              | Value                  |
+| ---------------- | ---------------------- |
+| `GEMINI_API_KEY` | ``                     |
+| `GEMINI_MODEL`   | `gemini-2.0-flash-exp` |
+| `PYTHON_VERSION` | `3.11.7`               |
 
 **Why:** Render doesn't have access to your `.env` file (which is good for security!). You must manually add these secrets.
 
